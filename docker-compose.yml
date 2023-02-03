@@ -10,6 +10,6 @@ services:
       - ./config.toml:/config.toml
       - ./stats.json:/stats.json
     ports:
-      - 8080:8080
-      - 9394:9394
+      - 10006:8080
+      - 10106:9394
 
