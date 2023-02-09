@@ -2,7 +2,7 @@ version: "3"
 
 services:
   stat_server:
-    image: idoge/stat_server:latest
+    image: idoge/stat_server:1.6.2
     container_name: stat_server
     restart: unless-stopped
     volumes:
